@@ -1,4 +1,6 @@
-class RepositorioCompras(val compras :MutableList<Compra>) {
+class RepositorioCompras() {
+
+    private val compras = mutableListOf<Compra>()
 
     fun agregarCompra(compra: Compra){compras.add(compra)}
 
